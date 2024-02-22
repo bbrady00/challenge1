@@ -47,14 +47,15 @@ h3 {
 
 .hero {
   height: 800px;
-  background-image: url("assets/images/digital-marketing-meeting.jpg");
+
+  background-image: url("../images/digital-marketing-meeting.jpg");
   background-size: cover;
   background-position: center;
 }
 
 .float-left,
 .float-right {
-  float: left;
+  margin: 25px;
 }
 
 main {
@@ -102,6 +103,13 @@ footer h2 {
 article img,
 section img {
   max-height: 200px;
+}
+
+.search-engine-optimization,
+.online-reputation-management,
+.social-media-marketing {
+  background-color: #0072bb;
+  color: white;
 }
 
 .search-engine-optimization h2,
