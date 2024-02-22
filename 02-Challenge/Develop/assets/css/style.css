@@ -4,6 +4,7 @@
   margin: 0;
 }
 
+/* Moved font-family into body */
 body {
   background-color: #d9dcd6;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -25,6 +26,7 @@ nav {
   float: right;
 }
 
+/* moved list related elements into ul and nav ul li*/
 nav ul {
   list-style-type: none;
 }
