@@ -46,7 +46,9 @@ a {
   text-decoration: none;
 }
 
-p {
+p,
+h2,
+h3 {
   font-size: 16px;
 }
 
@@ -59,14 +61,10 @@ p {
   background-position: center;
 }
 
-.float-left {
+.float-left,
+.float-right {
   float: left;
   margin-right: 25px;
-}
-
-.float-right {
-  float: right;
-  margin-left: 25px;
 }
 
 .content {
