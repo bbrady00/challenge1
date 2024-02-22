@@ -53,14 +53,21 @@ h3 {
   background-position: center;
 }
 
-.float-left,
+.float-left {
+  float: left;
+  margin-right: 25px;
+}
+
 .float-right {
-  margin: 25px;
+  float: right;
+  margin-left: 25px;
 }
 
 main {
   background-color: #0072bb;
   color: #ffffff;
+  width: 75%;
+  float: left;
 }
 
 main > section {
@@ -69,6 +76,7 @@ main > section {
   font-size: 16px;
 }
 
+/* condenced all .benefit + benefit-lead, .benefit-brand, .benefit-cost related elements into added <aside>*/
 aside {
   margin-right: 20px;
   float: right;
@@ -76,6 +84,7 @@ aside {
   background-color: #2589bd;
 }
 
+/*Applies to all article element inside aside*/
 aside article {
   margin-bottom: 32px;
 }
@@ -89,7 +98,7 @@ aside img {
   margin: 10px auto;
   max-width: 150px;
 }
-
+/* Added footer in html allowing for easier selection. Applied to h2 + p in footer */
 footer {
   clear: both;
   text-align: center;
@@ -105,6 +114,9 @@ section img {
   max-height: 200px;
 }
 
+/* Condensed remaing .search-engine-optimization,
+.online-reputation-management,
+.social-media-marketing elements that werent condensed into aside tags*/
 .search-engine-optimization,
 .online-reputation-management,
 .social-media-marketing {
