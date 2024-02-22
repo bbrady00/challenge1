@@ -10,7 +10,11 @@ body {
     "Lucida Sans", Arial, sans-serif;
 }
 
-.header {
+header,
+nav,
+main,
+aside,
+footer {
   padding: 20px;
   background-color: #2a607c;
   color: #ffffff;
@@ -84,48 +88,22 @@ h3 {
   background-color: #2589bd;
 }
 
-.benefit-lead {
-  margin-bottom: 32px;
-  color: #ffffff;
-}
-
-.benefit-brand {
-  margin-bottom: 32px;
-  color: #ffffff;
-}
-
+.benefit-lead,
+.benefit-brand,
 .benefit-cost {
   margin-bottom: 32px;
   color: #ffffff;
 }
 
-.benefit-lead h3 {
-  margin-bottom: 10px;
-  text-align: center;
-}
-
-.benefit-brand h3 {
-  margin-bottom: 10px;
-  text-align: center;
-}
-
+.benefit-lead h3,
+.benefit-brand h3,
 .benefit-cost h3 {
   margin-bottom: 10px;
   text-align: center;
 }
 
-.benefit-lead img {
-  display: block;
-  margin: 10px auto;
-  max-width: 150px;
-}
-
-.benefit-brand img {
-  display: block;
-  margin: 10px auto;
-  max-width: 150px;
-}
-
+.benefit-lead img,
+.benefit-brand img,
 .benefit-cost img {
   display: block;
   margin: 10px auto;
@@ -136,7 +114,6 @@ h3 {
   margin-bottom: 20px;
   padding: 50px;
   height: 300px;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   background-color: #0072bb;
   color: #ffffff;
 }
@@ -145,7 +122,6 @@ h3 {
   margin-bottom: 20px;
   padding: 50px;
   height: 300px;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   background-color: #0072bb;
   color: #ffffff;
 }
@@ -154,7 +130,6 @@ h3 {
   margin-bottom: 20px;
   padding: 50px;
   height: 300px;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   background-color: #0072bb;
   color: #ffffff;
 }
